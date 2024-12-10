@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>    
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" alt="Website Logo" style="width: 50px; vertical-align: middle;">
+        <h1 style="display: inline; margin-left: 10px;">My Web Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our website! We are passionate about creating engaging content and sharing valuable information with our audience.</p>
+            <img src="https://img.freepik.com/free-photo/about-as-service-contact-information-concept_53876-138509.jpg" alt="About Us" style="width: 100%; max-width: 600px; display: block; margin: 10px auto;">
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Check out some of our amazing moments captured in pictures.</p>
+            <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJ0GrRdlLFv0IGj3kJDpFxFJ-Z94dzJHUCw&s" alt="Gallery Image 1" style="width: 200px; height: 150px; object-fit: cover;">
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Learn_Web_Designing.jpg" alt="Gallery Image 2" style="width: 200px; height: 150px; object-fit: cover;">
+                <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg" alt="Gallery Image 3" style="width: 200px; height: 150px; object-fit: cover;">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your name" style="width: 100%; max-width: 400px; padding: 10px; margin: 10px 0;"><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your email" style="width: 100%; max-width: 400px; padding: 10px; margin: 10px 0;"><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Your message" style="width: 100%; max-width: 400px; padding: 10px; margin: 10px 0;"></textarea><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2024 Your Name. All rights reserved. | Designed with &#10084; for the web</p>
+    </footer>
+</body>
+</html>
